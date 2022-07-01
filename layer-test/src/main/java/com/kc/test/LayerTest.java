@@ -13,7 +13,8 @@ import java.util.stream.Stream;
 
 public class LayerTest {
     public static void main(String[] args) {
-        final String CX_LOCATION = "D:\\code\\xuexi\\java\\modules\\layer-info\\target\\";
+        final String CX_LOCATION = "D:\\code\\xuexi\\java\\modules\\layer-info\\target\\layer-info-1.0-SNAPSHOT.jar";
+//        final String CX_LOCATION = "libs/layder-info-1.0-SNAPSHOT.jar";
         Path path = Paths.get(CX_LOCATION);
         ModuleFinder beforeFinder = ModuleFinder.of(path);
         Set<ModuleReference> all = beforeFinder.findAll();
